@@ -1,0 +1,38 @@
+ADAM ADVOCATES — COMPLETE WEBSITE HOSTING PACKAGE
+
+STARTING PAGE
+Open the website root (/) or public/index.html through the server.
+The entry page shows only the disclaimer. Accept and press Proceed to open
+home.html. The homepage and Contact Us page are linked from there.
+Acceptance is remembered within the current browser tab session.
+
+Included:
+- Homepage with About Us, Services, Who We Help, Our Approach and FAQs.
+- Contact Us page and enquiry form.
+- First-visit disclaimer popup.
+- Gmail SMTP email server.
+- Saved images, styles and scripts.
+
+All internal page and section links have been checked.
+
+HOSTING REQUIREMENTS
+Use a host supporting Node.js 22+ and outgoing SMTP on port 587.
+This is a server application, not a static-only HTML upload.
+Upload the entire extracted project to your application folder.
+Install command: npm ci
+Start command: npm start
+The server serves the files inside public/ automatically.
+Do not expose the project root or private settings as a public folder.
+
+EMAIL SETUP
+Enter the values in .env.example into your host's private environment settings.
+Set SITE_ORIGIN to your final HTTPS domain without a trailing slash.
+Add a NEW Gmail app password privately; no password is included in this ZIP.
+Enquiries are configured to go to aswinsyam824@gmail.com.
+Live Gmail delivery has not yet been verified.
+
+VIDEO
+The supplied saved webpages did not include the original hero video.
+The homepage uses the supplied Lady Justice still image as a fallback.
+
+See README.md for full setup and testing instructions.

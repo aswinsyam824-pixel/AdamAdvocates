@@ -1,0 +1,16 @@
+{
+  "name": "adam-advocates-enquiries",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "nodemailer": "^10.1.7"
+  }
+}
